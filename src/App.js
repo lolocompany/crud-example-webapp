@@ -7,9 +7,8 @@ function App() {
       apiUrl={process.env.REACT_APP_API_URL}
       title='CRUD example'
     >
-      <LoloResource name='notes' />
-      <LoloResource name='boards' />
-      <LoloResource name='users' />
+      <LoloResource name='directors' />
+      <LoloResource name='movies' />
     </LoloAdmin>
   );
 }
